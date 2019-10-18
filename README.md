@@ -30,13 +30,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+forEach executes a function for each element in the array without creating a new array, where as .map returns a new array after executing a function every element in it
+
 2. What is the difference between a function and a method?
+
+a method is a function within an object,
 
 3. What is closure?
 
+Closure is what defines the limits of the lexical scope of a given code block.
+
 4. Describe the four rules of the 'this' keyword.
 
+is the function called by context of: 
+
+1) window/global scope
+2) implicit scope
+3) explicit scope
+4) new/bind scope
+
+
 5. Why do we need super() in an extended class?
+
+super() informs extends where to look for the this context
 
 ## Project Set up
 
